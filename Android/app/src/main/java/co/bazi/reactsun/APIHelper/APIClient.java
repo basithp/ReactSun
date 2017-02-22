@@ -9,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class APIClient {
 
-    public static final String BASE_URL = "http://10.195.169.158:8080";
+    public static final String BASE_URL = "https://s3-ap-southeast-1.amazonaws.com/sun-store/";
     private static Retrofit retrofit;
 
     public static Retrofit getAPIClient(){
